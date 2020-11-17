@@ -1,0 +1,39 @@
+.shop__cards_view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  height: 340px;
+  width: 340px;
+  background-size: contain;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+.card__name {
+  text-transform: uppercase;
+}
+
+.card__color {
+  color: gray;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.card__price {
+  font-size: 1.25rem;
+  color: rgb(220, 0, 0);
+}
