@@ -1,4 +1,5 @@
 import React from 'react'
+import AddToCart from '../utils/AddToCart'
 
 export default function ShopCard(props) {
   return (
@@ -9,7 +10,7 @@ export default function ShopCard(props) {
       </div>
       <div className='card__bottom'>
         <span className='card__price'>${ props.card.price }</span>
-        <a className='shop__add_btn' href='/'>Add to cart</a>
+        <AddToCart />
       </div>
     </div>
   )

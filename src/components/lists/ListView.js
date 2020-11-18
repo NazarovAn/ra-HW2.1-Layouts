@@ -1,5 +1,6 @@
 import React from 'react'
 import ShopItem from './ShopItem'
+import './ListView.css'
 
 export default function ListView(props) {
   console.log(props);

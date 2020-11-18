@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Store.css'
 import products from '../products'
-import IconSwitch from './IconSwitch'
+import IconSwitch from './utils/IconSwitch'
 import CardsView from './cards/CardsView'
 import ListView from './lists/ListView'
 

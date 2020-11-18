@@ -1,0 +1,34 @@
+.shop__item {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  padding: 0 1rem;
+  margin-bottom: 2px;
+}
+
+.shop__item_name,
+.shop__item_color,
+.shop__item_price {
+  text-align: center;
+  width: 20%;
+}
+
+.shop__item_image {
+  height: 100%;
+  padding-right: 10%;
+}
+
+.shop__item_name {
+  text-transform: uppercase;
+}
+
+.shop__item_color {
+  color: gray;
+}
+
+.shop__item_price {
+  font-size: 1.25rem;
+  color: rgb(220, 0, 0);
+}
