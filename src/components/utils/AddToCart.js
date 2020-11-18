@@ -3,6 +3,6 @@ import './AddToCart.css'
 
 export default function AddToCart() {
   return (
-    <a className='shop__add_btn' href='/'>Add to cart</a>
+    <a className="shop__add_btn" href="/">Add to cart</a>
   )
 }

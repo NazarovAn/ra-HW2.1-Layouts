@@ -11,11 +11,14 @@ function App() {
 
   return (
     <div className="App">
-      <IconSwitch icon={ productsView } onSwitch={(view) => {
-        setProductsView(view);
-        console.log(view);
-      }} />
-      { productsView === 'view_list' ? <ListView items ={ products } /> : <CardsView cards ={ products }/>}
+      <IconSwitch 
+        icon={ productsView } 
+        onSwitch={(view) => {
+          setProductsView(view);
+          console.log(view);
+        }}
+      />
+      { productsView === 'view_list' ? <ListView items ={ products } /> : <CardsView cards ={ products } /> }
     </div>
   );
 }
